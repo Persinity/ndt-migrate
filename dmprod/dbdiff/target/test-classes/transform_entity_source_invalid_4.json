@@ -1,0 +1,11 @@
+{
+  "transformations": [
+    {
+      "targetEntity": "test",
+      "transformStatement": "load sql 1",
+      "sourceLeadingEntity": "sourceLeadingEntity1",
+      "sourceLeadingColumns": [
+      ]
+    }
+  ]
+}

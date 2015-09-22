@@ -1,0 +1,9 @@
+com/persinity/ndt/etlagent/impl/haka/TransferWindowJob.class
+com/persinity/ndt/etlagent/impl/haka/TransferEntityJobProducer.class
+com/persinity/ndt/etlagent/impl/haka/LuwJobProcessor.class
+com/persinity/ndt/etlagent/impl/haka/Process.class
+com/persinity/ndt/etlagent/impl/haka/TransferEntityJob.class
+com/persinity/ndt/etlagent/impl/haka/LuwJobProducer.class
+com/persinity/ndt/etlagent/impl/haka/WindowGeneratorJob.class
+com/persinity/ndt/etlagent/impl/haka/TransferWindowJobProducer.class
+com/persinity/ndt/etlagent/impl/haka/LuwJob.class

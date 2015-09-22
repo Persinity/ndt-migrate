@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/data-mutator/bl-data-mutator.iml" filepath="$PROJECT_DIR$/data-mutator/bl-data-mutator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbagent/dbagent.iml" filepath="$PROJECT_DIR$/dbagent/dbagent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbdiff/dbdiff.iml" filepath="$PROJECT_DIR$/dbdiff/dbdiff.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dmprod.iml" filepath="$PROJECT_DIR$/dmprod.iml" />
+      <module fileurl="file://$PROJECT_DIR$/etlmodule/etlmodule.iml" filepath="$PROJECT_DIR$/etlmodule/etlmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haka/haka.iml" filepath="$PROJECT_DIR$/haka/haka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haka-examples/haka-examples.iml" filepath="$PROJECT_DIR$/haka-examples/haka-examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ndtcontroller/ndtcontroller.iml" filepath="$PROJECT_DIR$/ndtcontroller/ndtcontroller.iml" />
+    </modules>
+  </component>
+</project>

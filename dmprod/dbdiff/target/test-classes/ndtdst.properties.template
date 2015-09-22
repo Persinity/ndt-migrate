@@ -1,0 +1,7 @@
+#
+# Copyright (c) 2015 Persinity Inc.
+#
+
+db.url = jdbc:oracle:thin:@SOURCE_ORA_SERVER:1521:orcl
+db.user = testapp1
+db.pass = testapp1

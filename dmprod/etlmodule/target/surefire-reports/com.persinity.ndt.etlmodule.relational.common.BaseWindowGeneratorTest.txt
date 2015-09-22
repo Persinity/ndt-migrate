@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.persinity.ndt.etlmodule.relational.common.BaseWindowGeneratorTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 sec - in com.persinity.ndt.etlmodule.relational.common.BaseWindowGeneratorTest

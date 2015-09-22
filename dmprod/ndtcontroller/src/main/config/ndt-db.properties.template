@@ -1,0 +1,39 @@
+#
+# Copyright (c) 2015 Persinity Inc.
+#
+
+#
+# Configurations for NDT-Migrate application and staging connections
+# JDBC DB URL, e.g.: jdbc:oracle:thin:@DB_HOST:1521:orcl
+# DB username and password
+#
+
+# Source Application DB
+src.app.db.url = jdbc:oracle:thin:@SRC_DB_HOST:1521:orcl
+src.app.db.user = testapp
+src.app.db.pass = testapp
+
+# Destination Application DB
+dst.app.db.url = jdbc:oracle:thin:@DST_DB_HOST:1521:orcl
+dst.app.db.user = testapp1
+dst.app.db.pass = testapp1
+
+# Source Staging DB
+src.ndt.db.url = jdbc:oracle:thin:@SRC_STAGING_DB_HOST:1521:orcl
+src.ndt.db.user = ndtsrc
+src.ndt.db.pass = ndtsrc
+
+# Destination Staging DB
+dst.ndt.db.url = jdbc:oracle:thin:@DST_STAGING_DB_HOST:1521:orcl
+dst.ndt.db.user = ndtdst
+dst.ndt.db.pass = ndtdst
+
+#
+# Optional settings
+#
+
+# Caching SQL for prepared statements may boost performance when using JDBC drivers that do not support that feature.
+src.app.db.cache.sql = false
+dst.app.db.cache.sql = false
+src.ndt.db.cache.sql = false
+dst.ndt.db.cache.sql = false
