@@ -1,0 +1,14 @@
+#
+# Copyright (c) 2015 Persinity Inc.
+#
+
+# Contains properties for NDT DB connections source and destination
+# JDBC DB URL, e.g.: jdbc:oracle:thin:@SRC_DB_SERVER:1521:orcl
+# DB username and password
+
+db.url = jdbc:oracle:thin:@SRC_DB_SERVER:1521:orcl
+db.user = testapp
+db.pass = testapp
+
+schema.init.sql = bl31-init.sql
+schema.drop.sql = bl31-drop.sql

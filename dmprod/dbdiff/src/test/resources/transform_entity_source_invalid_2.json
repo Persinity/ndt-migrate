@@ -1,0 +1,13 @@
+{
+  "transformations": [
+    {
+      "targetEntity": "test",
+      "transformStatement": "",
+      "sourceLeadingEntity": "sourceLeadingEntity1",
+      "sourceLeadingColumns": [
+        "col1",
+        "col2"
+      ]
+    }
+  ]
+}

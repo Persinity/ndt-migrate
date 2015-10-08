@@ -1,0 +1,29 @@
+{
+  "transformations": [
+    {
+      "targetEntity": "dept",
+      "transformStatement": "SELECT * FROM dept",
+      "sourceLeadingEntity": "dept",
+      "sourceLeadingColumns": [
+        "id"
+      ]
+    },
+    {
+      "targetEntity": "emp",
+      "transformStatement": "SELECT * FROM emp",
+      "sourceLeadingEntity": "emp",
+      "sourceLeadingColumns": [
+        "id"
+      ]
+    },
+    {
+      "targetEntity": "kid",
+      "transformStatement": "SELECT * FROM kid",
+      "sourceLeadingEntity": "kid",
+      "sourceLeadingColumns": [
+        "id",
+        "sid"
+      ]
+    }
+  ]
+}

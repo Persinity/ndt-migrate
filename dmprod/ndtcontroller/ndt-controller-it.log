@@ -1,0 +1,171 @@
+2015-10-08 22:03:46.275 DEBUG [           main] c.p.c.Config - Loaded properties from classpath, file: build-info.properties
+2015-10-08 22:03:47.385 DEBUG [           main] c.p.n.c.s.ClogGc - Execute clog GC at EasyMock for interface com.persinity.common.db.RelDb
+2015-10-08 22:03:47.386 DEBUG [           main] c.p.n.c.s.ClogGc - Execute clog GC at EasyMock for interface com.persinity.common.db.RelDb
+2015-10-08 22:03:48.389 DEBUG [           main] c.p.n.c.s.ClogGc - Execute clog GC at EasyMock for interface com.persinity.common.db.RelDb
+2015-10-08 22:03:48.390 DEBUG [           main] c.p.n.c.s.ClogGc - Execute clog GC at EasyMock for interface com.persinity.common.db.RelDb
+2015-10-08 22:03:51.439 DEBUG [  MetricsReport] c.p.n.c.s.StopWindowGenerator - Force stop window generator: EasyMock for interface com.persinity.ndt.etlmodule.WindowGenerator
+2015-10-08 22:03:51.441 DEBUG [  MetricsReport] c.p.n.c.s.StopWindowGenerator - Stop window generator: EasyMock for interface com.persinity.ndt.etlmodule.WindowGenerator
+2015-10-08 22:03:51.444 DEBUG [  MetricsReport] c.p.n.c.i.BaseNdtViewController - Sending com.persinity.ndt.controller.NdtEvent@2ced1f5
+2015-10-08 22:03:51.445 DEBUG [  MetricsReport] c.p.n.c.i.BaseNdtViewController - Waiting on com.persinity.ndt.controller.NdtEvent@2ced1f5
+2015-10-08 22:03:51.445 INFO  [       Thread-3] c.p.n.c.i.ConsoleNdtViewController - 
+2015-10-08 22:03:51.950 DEBUG [       Thread-3] c.p.n.c.i.BaseNdtViewController - Received ack for com.persinity.ndt.controller.NdtEvent@2ced1f5
+2015-10-08 22:03:51.951 DEBUG [  MetricsReport] c.p.n.c.i.BaseNdtViewController - End of com.persinity.ndt.controller.NdtEvent@2ced1f5
+2015-10-08 22:03:51.968 INFO  [  MetricsReport] c.p.n.c.i.ConsoleNdtViewController - test
+2015-10-08 22:03:51.968 INFO  [  MetricsReport] c.p.n.c.i.ConsoleNdtViewController - ndtTest
+2015-10-08 22:03:51.969 INFO  [  MetricsReport] c.p.n.c.i.ConsoleNdtViewController - test
+2015-10-08 22:03:51.969 INFO  [  MetricsReport] c.p.n.c.i.ConsoleNdtViewController - test
+2015-10-08 22:03:51.971 DEBUG [  MetricsReport] c.p.n.c.i.BaseNdtViewController - Sending com.persinity.ndt.controller.NdtEvent@3b955dd5
+2015-10-08 22:03:51.971 DEBUG [  MetricsReport] c.p.n.c.i.BaseNdtViewController - Waiting on com.persinity.ndt.controller.NdtEvent@3b955dd5
+2015-10-08 22:03:52.474 DEBUG [       Thread-6] c.p.n.c.i.BaseNdtViewController - Sending com.persinity.ndt.controller.NdtEvent@4aa28dc6
+2015-10-08 22:03:52.475 DEBUG [       Thread-6] c.p.n.c.i.BaseNdtViewController - Waiting on com.persinity.ndt.controller.NdtEvent@4aa28dc6
+2015-10-08 22:03:52.724 DEBUG [  MetricsReport] c.p.n.c.i.BaseNdtViewController - Received ack for com.persinity.ndt.controller.NdtEvent@4aa28dc6
+2015-10-08 22:03:52.725 DEBUG [       Thread-6] c.p.n.c.i.BaseNdtViewController - End of com.persinity.ndt.controller.NdtEvent@4aa28dc6
+2015-10-08 22:03:52.725 DEBUG [  MetricsReport] c.p.n.c.i.BaseNdtViewController - Sending com.persinity.ndt.controller.NdtEvent@1889c3ae
+2015-10-08 22:03:52.728 DEBUG [  MetricsReport] c.p.n.c.i.BaseNdtViewController - Sending com.persinity.ndt.controller.NdtEvent@2a37783b
+2015-10-08 22:03:52.728 DEBUG [  MetricsReport] c.p.n.c.i.BaseNdtViewController - Waiting on com.persinity.ndt.controller.NdtEvent@2a37783b
+2015-10-08 22:03:53.228 DEBUG [       Thread-9] c.p.n.c.i.BaseNdtViewController - Received ack for com.persinity.ndt.controller.NdtEvent@2a37783b
+2015-10-08 22:03:53.229 DEBUG [  MetricsReport] c.p.n.c.i.BaseNdtViewController - End of com.persinity.ndt.controller.NdtEvent@2a37783b
+2015-10-08 22:03:53.639 ERROR [   StepFailStub] c.p.n.c.s.BaseStep - Failed running StepFailStub - 20
+java.lang.RuntimeException: Expected
+	at com.persinity.ndt.controller.script.StepFailStub.work(StepFailStub.java:18)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at com.persinity.ndt.controller.script.Script$ExceptionSilentThread.run(Script.java:108)
+2015-10-08 22:03:53.639 ERROR [   StepFailStub] c.p.n.c.s.BaseStep - Failed running StepFailStub - 20
+java.lang.RuntimeException: Expected
+	at com.persinity.ndt.controller.script.StepFailStub.work(StepFailStub.java:18)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at com.persinity.ndt.controller.script.Script$ExceptionSilentThread.run(Script.java:108)
+2015-10-08 22:03:53.646 ERROR [   StepFailStub] c.p.n.c.s.Script - Script step run failed StepFailStub - 20
+java.lang.RuntimeException: Expected
+	at com.persinity.ndt.controller.script.StepFailStub.work(StepFailStub.java:18)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at com.persinity.ndt.controller.script.Script$ExceptionSilentThread.run(Script.java:108)
+2015-10-08 22:03:53.646 ERROR [   StepFailStub] c.p.n.c.s.Script - Script step run failed StepFailStub - 20
+java.lang.RuntimeException: Expected
+	at com.persinity.ndt.controller.script.StepFailStub.work(StepFailStub.java:18)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at com.persinity.ndt.controller.script.Script$ExceptionSilentThread.run(Script.java:108)
+2015-10-08 22:03:53.837 ERROR [         Script] c.p.n.c.s.Script - Found failed step StepFailStub - 20 in script Script - 1
+2015-10-08 22:03:53.837 ERROR [         Script] c.p.n.c.s.Script - Found failed step StepFailStub - 20 in script Script - 1
+2015-10-08 22:03:53.838 ERROR [         Script] c.p.n.c.s.BaseStep - Failed running Script - 1
+java.lang.RuntimeException: Expected
+	at com.persinity.ndt.controller.script.StepFailStub.work(StepFailStub.java:18)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at com.persinity.ndt.controller.script.Script$ExceptionSilentThread.run(Script.java:108)
+2015-10-08 22:03:53.838 ERROR [         Script] c.p.n.c.s.BaseStep - Failed running Script - 1
+java.lang.RuntimeException: Expected
+	at com.persinity.ndt.controller.script.StepFailStub.work(StepFailStub.java:18)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at com.persinity.ndt.controller.script.Script$ExceptionSilentThread.run(Script.java:108)
+2015-10-08 22:03:54.243 ERROR [   StepFailStub] c.p.n.c.s.BaseStep - Failed running StepFailStub - 25
+java.lang.RuntimeException: Expected
+	at com.persinity.ndt.controller.script.StepFailStub.work(StepFailStub.java:18)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-08 22:03:54.243 ERROR [   StepFailStub] c.p.n.c.s.BaseStep - Failed running StepFailStub - 25
+java.lang.RuntimeException: Expected
+	at com.persinity.ndt.controller.script.StepFailStub.work(StepFailStub.java:18)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-08 22:03:54.245 ERROR [         Script] c.p.n.c.s.BaseStep - Prev step: StepFailStub - 25 failed, aborting Script - 1
+2015-10-08 22:03:54.245 ERROR [         Script] c.p.n.c.s.BaseStep - Prev step: StepFailStub - 25 failed, aborting Script - 1
+2015-10-08 22:03:56.256 ERROR [   StepLongStub] c.p.n.c.s.BaseStep - Failed running StepLongStub - 28
+java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:21)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:19)
+	... 3 more
+2015-10-08 22:03:56.256 ERROR [   StepLongStub] c.p.n.c.s.BaseStep - Failed running StepLongStub - 28
+java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:21)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:19)
+	... 3 more
+2015-10-08 22:03:57.260 ERROR [       StepStub] c.p.n.c.s.BaseStep - Wait on prev step: StepLongStub - 32 aborted, aborting StepStub - 32
+java.lang.RuntimeException: java.lang.InterruptedException
+	at com.persinity.ndt.controller.script.BaseStep.waitToFinish(BaseStep.java:160)
+	at com.persinity.ndt.controller.script.BaseStep.waitPreviousStep(BaseStep.java:96)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:54)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at com.persinity.ndt.controller.script.BaseStep.waitToFinish(BaseStep.java:158)
+	... 3 more
+2015-10-08 22:03:57.260 ERROR [       StepStub] c.p.n.c.s.BaseStep - Wait on prev step: StepLongStub - 32 aborted, aborting StepStub - 32
+java.lang.RuntimeException: java.lang.InterruptedException
+	at com.persinity.ndt.controller.script.BaseStep.waitToFinish(BaseStep.java:160)
+	at com.persinity.ndt.controller.script.BaseStep.waitPreviousStep(BaseStep.java:96)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:54)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException
+	at java.lang.Object.wait(Native Method)
+	at com.persinity.ndt.controller.script.BaseStep.waitToFinish(BaseStep.java:158)
+	... 3 more
+2015-10-08 22:03:57.263 ERROR [   StepLongStub] c.p.n.c.s.BaseStep - Failed running StepLongStub - 32
+java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:21)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:19)
+	... 3 more
+2015-10-08 22:03:57.263 ERROR [   StepLongStub] c.p.n.c.s.BaseStep - Failed running StepLongStub - 32
+java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:21)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:19)
+	... 3 more
+2015-10-08 22:03:57.770 ERROR [   StepLongStub] c.p.n.c.s.BaseStep - Failed running StepLongStub - 34
+java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:21)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:19)
+	... 3 more
+2015-10-08 22:03:57.770 ERROR [   StepLongStub] c.p.n.c.s.BaseStep - Failed running StepLongStub - 34
+java.lang.RuntimeException: java.lang.InterruptedException: sleep interrupted
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:21)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException: sleep interrupted
+	at java.lang.Thread.sleep(Native Method)
+	at com.persinity.ndt.controller.script.StepLongStub.work(StepLongStub.java:19)
+	... 3 more
+2015-10-08 22:03:57.775 ERROR [   StepFailStub] c.p.n.c.s.BaseStep - Failed running StepFailStub - 36
+java.lang.RuntimeException: Expected
+	at com.persinity.ndt.controller.script.StepFailStub.work(StepFailStub.java:18)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at java.lang.Thread.run(Thread.java:745)
+2015-10-08 22:03:57.775 ERROR [   StepFailStub] c.p.n.c.s.BaseStep - Failed running StepFailStub - 36
+java.lang.RuntimeException: Expected
+	at com.persinity.ndt.controller.script.StepFailStub.work(StepFailStub.java:18)
+	at com.persinity.ndt.controller.script.BaseStep.executeStep(BaseStep.java:140)
+	at com.persinity.ndt.controller.script.BaseStep.run(BaseStep.java:58)
+	at java.lang.Thread.run(Thread.java:745)

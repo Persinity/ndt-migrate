@@ -1,0 +1,356 @@
+DROP TABLE blc_additional_offer_info CASCADE CONSTRAINTS
+/
+DROP TABLE blc_address CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_module CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_password_token CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_permission CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_permission_entity CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_role CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_role_permission_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_section CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_sec_perm_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_user CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_user_permission_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_user_role_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_admin_user_sandbox CASCADE CONSTRAINTS
+/
+DROP TABLE blc_amount_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_asset_desc_map CASCADE CONSTRAINTS
+/
+DROP TABLE blc_bank_account_payment CASCADE CONSTRAINTS
+/
+DROP TABLE blc_bundle_order_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_bund_item_fee_price CASCADE CONSTRAINTS
+/
+DROP TABLE blc_candidate_fg_offer CASCADE CONSTRAINTS
+/
+DROP TABLE blc_candidate_item_offer CASCADE CONSTRAINTS
+/
+DROP TABLE blc_candidate_order_offer CASCADE CONSTRAINTS
+/
+DROP TABLE blc_catalog CASCADE CONSTRAINTS
+/
+DROP TABLE blc_category CASCADE CONSTRAINTS
+/
+DROP TABLE blc_category_attribute CASCADE CONSTRAINTS
+/
+DROP TABLE blc_category_image CASCADE CONSTRAINTS
+/
+DROP TABLE blc_category_media_map CASCADE CONSTRAINTS
+/
+DROP TABLE blc_category_product_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_category_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_cat_search_facet_excl_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_cat_search_facet_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_challenge_question CASCADE CONSTRAINTS
+/
+DROP TABLE blc_code_types CASCADE CONSTRAINTS
+/
+DROP TABLE blc_country CASCADE CONSTRAINTS
+/
+DROP TABLE blc_credit_card_payment CASCADE CONSTRAINTS
+/
+DROP TABLE blc_currency CASCADE CONSTRAINTS
+/
+DROP TABLE blc_customer CASCADE CONSTRAINTS
+/
+DROP TABLE blc_customer_address CASCADE CONSTRAINTS
+/
+DROP TABLE blc_customer_attribute CASCADE CONSTRAINTS
+/
+DROP TABLE blc_customer_offer_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_customer_password_token CASCADE CONSTRAINTS
+/
+DROP TABLE blc_customer_payment CASCADE CONSTRAINTS
+/
+DROP TABLE blc_customer_payment_fields CASCADE CONSTRAINTS
+/
+DROP TABLE blc_customer_phone CASCADE CONSTRAINTS
+/
+DROP TABLE blc_customer_role CASCADE CONSTRAINTS
+/
+DROP TABLE blc_data_drvn_enum CASCADE CONSTRAINTS
+/
+DROP TABLE blc_data_drvn_enum_val CASCADE CONSTRAINTS
+/
+DROP TABLE blc_discrete_order_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_disc_item_fee_price CASCADE CONSTRAINTS
+/
+DROP TABLE blc_dyn_discrete_order_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_email_tracking CASCADE CONSTRAINTS
+/
+DROP TABLE blc_email_tracking_clicks CASCADE CONSTRAINTS
+/
+DROP TABLE blc_email_tracking_opens CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fg_adjustment CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fg_fee_tax_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fg_fg_tax_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fg_item_tax_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_field CASCADE CONSTRAINTS
+/
+DROP TABLE blc_field_search_types CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fld_def CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fld_enum CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fld_enum_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fld_group CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fulfillment_group CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fulfillment_group_fee CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fulfillment_group_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fulfillment_option CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fulfillment_option_fixed CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fulfillment_opt_banded_prc CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fulfillment_opt_banded_wgt CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fulfillment_price_band CASCADE CONSTRAINTS
+/
+DROP TABLE blc_fulfillment_weight_band CASCADE CONSTRAINTS
+/
+DROP TABLE blc_giftwrap_order_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_gift_card_payment CASCADE CONSTRAINTS
+/
+DROP TABLE blc_id_generation CASCADE CONSTRAINTS
+/
+DROP TABLE blc_img_static_asset CASCADE CONSTRAINTS
+/
+DROP TABLE blc_item_offer_qualifier CASCADE CONSTRAINTS
+/
+DROP TABLE blc_locale CASCADE CONSTRAINTS
+/
+DROP TABLE blc_media CASCADE CONSTRAINTS
+/
+DROP TABLE blc_module_configuration CASCADE CONSTRAINTS
+/
+DROP TABLE blc_offer CASCADE CONSTRAINTS
+/
+DROP TABLE blc_offer_audit CASCADE CONSTRAINTS
+/
+DROP TABLE blc_offer_code CASCADE CONSTRAINTS
+/
+DROP TABLE blc_offer_info CASCADE CONSTRAINTS
+/
+DROP TABLE blc_offer_info_fields CASCADE CONSTRAINTS
+/
+DROP TABLE blc_offer_item_criteria CASCADE CONSTRAINTS
+/
+DROP TABLE blc_offer_rule CASCADE CONSTRAINTS
+/
+DROP TABLE blc_offer_rule_map CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_adjustment CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_attribute CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_item_add_attr CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_item_adjustment CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_item_attribute CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_item_dtl_adj CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_item_price_dtl CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_multiship_option CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_offer_code_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_payment CASCADE CONSTRAINTS
+/
+DROP TABLE blc_order_payment_details CASCADE CONSTRAINTS
+/
+DROP TABLE blc_page CASCADE CONSTRAINTS
+/
+DROP TABLE blc_page_fld CASCADE CONSTRAINTS
+/
+DROP TABLE blc_page_fld_map CASCADE CONSTRAINTS
+/
+DROP TABLE blc_page_item_criteria CASCADE CONSTRAINTS
+/
+DROP TABLE blc_page_rule CASCADE CONSTRAINTS
+/
+DROP TABLE blc_page_rule_map CASCADE CONSTRAINTS
+/
+DROP TABLE blc_page_tmplt CASCADE CONSTRAINTS
+/
+DROP TABLE blc_payinfo_additional_fields CASCADE CONSTRAINTS
+/
+DROP TABLE blc_payment_additional_fields CASCADE CONSTRAINTS
+/
+DROP TABLE blc_payment_log CASCADE CONSTRAINTS
+/
+DROP TABLE blc_payment_response_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_personal_message CASCADE CONSTRAINTS
+/
+DROP TABLE blc_pgtmplt_fldgrp_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_phone CASCADE CONSTRAINTS
+/
+DROP TABLE blc_product CASCADE CONSTRAINTS
+/
+DROP TABLE blc_product_attribute CASCADE CONSTRAINTS
+/
+DROP TABLE blc_product_bundle CASCADE CONSTRAINTS
+/
+DROP TABLE blc_product_cross_sale CASCADE CONSTRAINTS
+/
+DROP TABLE blc_product_featured CASCADE CONSTRAINTS
+/
+DROP TABLE blc_product_option CASCADE CONSTRAINTS
+/
+DROP TABLE blc_product_option_value CASCADE CONSTRAINTS
+/
+DROP TABLE blc_product_option_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_product_sku_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_product_up_sale CASCADE CONSTRAINTS
+/
+DROP TABLE blc_qual_crit_offer_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_qual_crit_page_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_qual_crit_sc_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_rating_detail CASCADE CONSTRAINTS
+/
+DROP TABLE blc_rating_summary CASCADE CONSTRAINTS
+/
+DROP TABLE blc_review_detail CASCADE CONSTRAINTS
+/
+DROP TABLE blc_review_feedback CASCADE CONSTRAINTS
+/
+DROP TABLE blc_role CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sandbox CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sandbox_action CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sandbox_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sc CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sc_fld CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sc_fldgrp_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sc_fld_map CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sc_fld_tmplt CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sc_item_criteria CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sc_rule CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sc_rule_map CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sc_type CASCADE CONSTRAINTS
+/
+DROP TABLE blc_search_facet CASCADE CONSTRAINTS
+/
+DROP TABLE blc_search_facet_range CASCADE CONSTRAINTS
+/
+DROP TABLE blc_search_facet_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_search_intercept CASCADE CONSTRAINTS
+/
+DROP TABLE blc_search_synonym CASCADE CONSTRAINTS
+/
+DROP TABLE blc_shipping_rate CASCADE CONSTRAINTS
+/
+DROP TABLE blc_site CASCADE CONSTRAINTS
+/
+DROP TABLE blc_site_catalog CASCADE CONSTRAINTS
+/
+DROP TABLE blc_site_sandbox CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sku CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sku_attribute CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sku_availability CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sku_bundle_item CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sku_fee CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sku_fee_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sku_fulfillment_excluded CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sku_fulfillment_flat_rates CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sku_media_map CASCADE CONSTRAINTS
+/
+DROP TABLE blc_sku_option_value_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_state CASCADE CONSTRAINTS
+/
+DROP TABLE blc_static_asset CASCADE CONSTRAINTS
+/
+DROP TABLE blc_static_asset_desc CASCADE CONSTRAINTS
+/
+DROP TABLE blc_static_asset_strg CASCADE CONSTRAINTS
+/
+DROP TABLE blc_store CASCADE CONSTRAINTS
+/
+DROP TABLE blc_system_property CASCADE CONSTRAINTS
+/
+DROP TABLE blc_tar_crit_offer_xref CASCADE CONSTRAINTS
+/
+DROP TABLE blc_tax_detail CASCADE CONSTRAINTS
+/
+DROP TABLE blc_translation CASCADE CONSTRAINTS
+/
+DROP TABLE blc_url_handler CASCADE CONSTRAINTS
+/
+DROP TABLE blc_userconnection CASCADE CONSTRAINTS
+/
+DROP TABLE blc_zip_code CASCADE CONSTRAINTS
+/
+DROP TABLE sandbox_item_action CASCADE CONSTRAINTS
+/
+DROP TABLE sequence_generator CASCADE CONSTRAINTS
+/

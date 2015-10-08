@@ -1,0 +1,30 @@
+###############################################################################
+# Copyright (c) 2015 Persinity Inc.
+###############################################################################
+
+# Contains properties for the ETL integration test:
+# JDBC DB URL, e.g.: jdbc:oracle:thin:@SOURCE_ORA_SERVER:1521:orcl
+# DB username and password
+
+# Source application DB
+src.app.db.url=jdbc:oracle:thin:@SOURCE_ORA_SERVER:1521:orcl
+src.app.db.user=testapp
+src.app.db.pass=testapp
+
+# Destination application DB
+dst.app.db.url=jdbc:oracle:thin:@SOURCE_ORA_SERVER:1521:orcl
+dst.app.db.user=testapp1
+dst.app.db.pass=testapp1
+
+# Source NDT DB
+src.ndt.db.url=jdbc:oracle:thin:@SOURCE_ORA_SERVER:1521:orcl
+src.ndt.db.user=ndtsrc
+src.ndt.db.pass=ndtsrc
+
+# Destination NDT DB
+dst.ndt.db.url=jdbc:oracle:thin:@SOURCE_ORA_SERVER:1521:orcl
+dst.ndt.db.user=ndtdst
+dst.ndt.db.pass=ndtdst
+
+# The window size to be used
+window.size=10

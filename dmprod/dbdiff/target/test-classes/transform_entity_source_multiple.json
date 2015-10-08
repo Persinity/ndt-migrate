@@ -1,0 +1,22 @@
+{
+  "transformations": [
+    {
+      "targetEntity": "entity1",
+      "transformStatement": "load sql 1",
+      "sourceLeadingEntity": "sourceLeadingEntity1",
+      "sourceLeadingColumns": [
+        "col1",
+        "col2"
+      ]
+    },
+    {
+      "targetEntity": "entity2",
+      "transformStatement": "load sql 2",
+      "sourceLeadingEntity": "sourceLeadingEntity2",
+      "sourceLeadingColumns": [
+        "col3",
+        "col4"
+      ]
+    }
+  ]
+}

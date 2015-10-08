@@ -1,0 +1,16 @@
+/*******************************************************************************
+ * Copyright (c) 2015 Persinity Inc.
+ * Creates NDT agent schema. Execute as DBA.
+ *******************************************************************************/
+BEGIN
+  EXECUTE IMMEDIATE 'DROP USER &ndtusername CASCADE';
+EXCEPTION WHEN OTHERS THEN NULL;
+END;
+/
+CREATE USER &ndtusername IDENTIFIED BY &ndtpassword
+DEFAULT TABLESPACE users
+TEMPORARY TABLESPACE temp
+QUOTA 1024M ON users
+/
+GRANT connect, resource TO &ndtusername
+/
