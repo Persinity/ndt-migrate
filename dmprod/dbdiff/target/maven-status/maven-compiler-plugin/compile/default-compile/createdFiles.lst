@@ -1,9 +1,0 @@
-com/persinity/ndt/dbdiff/SchemaDiffGenerator.class
-com/persinity/ndt/dbdiff/rel/JsonTransformEntityStore$1.class
-com/persinity/ndt/dbdiff/rel/JsonTransformEntityStore.class
-com/persinity/ndt/dbdiff/MigrateSchemaDiffGenerator.class
-com/persinity/ndt/dbdiff/rel/JsonTransformEntityStore$2.class
-com/persinity/ndt/dbdiff/BufferedSchemaDiffGenerator.class
-com/persinity/ndt/dbdiff/TransformEntity.class
-com/persinity/ndt/dbdiff/TransformEntityStore.class
-com/persinity/ndt/dbdiff/DbDiff.class
