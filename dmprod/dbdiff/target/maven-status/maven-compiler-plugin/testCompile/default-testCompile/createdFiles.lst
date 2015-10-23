@@ -1,5 +1,0 @@
-com/persinity/ndt/dbdiff/TransformEntityTest.class
-com/persinity/ndt/dbdiff/MigrateSchemaDiffGeneratorTest.class
-com/persinity/ndt/dbdiff/BufferedSchemaDiffGeneratorTest.class
-com/persinity/ndt/dbdiff/DbDiffIT.class
-com/persinity/ndt/dbdiff/rel/JsonTransformEntityStoreTest.class

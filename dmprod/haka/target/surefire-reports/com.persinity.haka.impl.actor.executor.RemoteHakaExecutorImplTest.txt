@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.persinity.haka.impl.actor.executor.RemoteHakaExecutorImplTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.86 sec - in com.persinity.haka.impl.actor.executor.RemoteHakaExecutorImplTest

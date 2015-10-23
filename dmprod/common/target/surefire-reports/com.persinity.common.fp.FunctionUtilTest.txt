@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.persinity.common.fp.FunctionUtilTest
--------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.004 sec - in com.persinity.common.fp.FunctionUtilTest
